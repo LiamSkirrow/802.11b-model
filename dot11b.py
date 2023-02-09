@@ -1,6 +1,5 @@
 # 802.11b PPDU classes
 
-import numpy as np
 from math import floor, ceil
 
 # NOTES:
@@ -64,7 +63,7 @@ class PPDU:
 
 class LongPPDU(PPDU):
     def __init__(self, payloadLenBytes, payloadRate):
-        self.sync             = np.ones(128)
+        self.sync             = [1]*128   # long PPDU SYNC: 128 1's
         self.sfd              = int("F3A0", 16)   # NOTE: need to check that the SFD value is correct
         self.headerSignal     = self.calculateSignalHeader(payloadRate)
         self.headerService    = self.calculateServiceHeader(payloadLenBytes, payloadRate)
