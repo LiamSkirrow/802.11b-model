@@ -20,3 +20,6 @@ A Python model to simulate the 802.11b DSSS/CCK PHY layer, both Tx and Rx.
 - Some kind of filtering??? (Barker-matched filter etc...)
 - Radio stage (show waveform segment and spectral output)
 - Receiver... (TODO)
+
+### User Guide
+TODO...
