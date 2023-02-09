@@ -9,5 +9,14 @@ A Python model to simulate the 802.11b DSSS/CCK PHY layer, both Tx and Rx.
 - Include an interactive mode, where a terminal prompt pops up and the entire process is broken down into stages, and the user can hit enter to cycle through these stages. Various plots and terminal output should be given at each stage to show what's happening. 
 - Simulate the channel with varying levels of AWGN.
 
-### Bugs/Progress:
+### Bugs/Progress
 - ...
+
+### Simulation Stages
+- Generating PPDU: annotate the PPDU sections, show the scrambled and unscrambled PPDU (maybe without the SYNC+SFD?)
+(WIP)...
+- Barker code 'mapping'
+- DBPSK/DQPSK mapping
+- Some kind of filtering??? (Barker-matched filter etc...)
+- Radio stage (show waveform segment and spectral output)
+- Receiver... (TODO)
