@@ -18,3 +18,15 @@ if __name__ == "__main__":
     print('-----------------')
     print(LongPPDU.headerLength)
     print('-----------------')
+
+""" stages:
+1- header generation
+2- header scrambling
+3- (WIP)...
+- Barker code 'mapping'
+- DBPSK/DQPSK mapping
+- Some kind of filtering??? (Barker-matched filter etc...)
+- Radio stage (show waveform segment and spectral output)
+- Receiver... (TODO)
+
+"""
