@@ -32,7 +32,7 @@ class PPDU:
     def calcChecksum(header, numIterations):
         # don't need init seed, can just hardwire all 1s from within this function
         print("header: " + str(header))
-        
+
 
         return header
 
@@ -90,6 +90,5 @@ class LongPPDU(PPDU):
         self.payload          = None
         self.ppdu             = None
         self.scrambledPpdu    = None
-
 
 # include a modulator (BPSK/QPSK mapper etc) and a radio class (mixing with 2.4GHz LO)
