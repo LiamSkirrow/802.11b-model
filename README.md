@@ -7,6 +7,7 @@ A Python model to simulate the 802.11b DSSS/CCK PHY layer, both Tx and Rx.
   - a text file containing string data (up to 4095 bytes as per the protocol's payload limit)
   - the command line, where the user enters arbitrary string data on the command line
 - Include an interactive mode, where a terminal prompt pops up and the entire process is broken down into stages.The user should be able to hit enter to cycle through these stages. Various plots and terminal output should be given at each stage to show what's happening.
+- Include screenshots of the matplotlib plots in the README
 
 ### Bugs/Progress
 - ...
