@@ -3,9 +3,7 @@
 from math import floor, ceil
 
 # NOTES:
-# - currently I'm mixing data types, using ints and numpy arrays to represent the fields
-#   at this point in time, simply representing each PPDU field as a LIST makes the most sense
-#   should be easy enough to generate the sub-lists and then concat them all together to form the main list (full PPDU)
+# - should split up Tx and Rx functionality into separate classes
 
 # generic PPDU class
 class PPDU:
